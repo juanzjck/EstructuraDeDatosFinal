@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{223F292E-37B5-C96E-9E4B-23EFFC389C40}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GoogleGoMap/Scripts/PlayerLocationService.cs">
+    <Files>
+      <File FileName="Assets/GoogleGoMap/Scripts/GeoPoint.cs" Line="6" Column="31" />
+      <File FileName="Assets/GoogleGoMap/Scripts/GoogleStaticMap.cs" Line="125" Column="47" />
+      <File FileName="Assets/GoogleGoMap/Scripts/GameManager.cs" Line="52" Column="1" />
+      <File FileName="Assets/GoogleGoMap/Scripts/PlayerLocationService.cs" Line="26" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
