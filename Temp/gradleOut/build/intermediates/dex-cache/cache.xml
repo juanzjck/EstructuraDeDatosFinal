@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/juansalazar/Documents/UNITY3D/sinNombre/EstructuraDeDatosFinal/Temp/gradleOut/libs/unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="db401f4021204ed29e821e60c9f18d97be57ff54">
+        <dex dex="/Users/juansalazar/Documents/UNITY3D/sinNombre/EstructuraDeDatosFinal/Temp/gradleOut/build/intermediates/pre-dexed/release/unity-classes_f8e6eb8729f531c4a96b25615301665ca3c52a5b.jar" />
+    </item>
+
+</items>

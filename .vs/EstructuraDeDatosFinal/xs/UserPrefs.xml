@@ -1,11 +1,19 @@
 ﻿<Properties StartupConfiguration="{223F292E-37B5-C96E-9E4B-23EFFC389C40}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GoogleGoMap/Scripts/PlayerLocationService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GoogleGoMap/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Assets/GoogleGoMap/Scripts/GeoPoint.cs" Line="6" Column="31" />
-      <File FileName="Assets/GoogleGoMap/Scripts/GoogleStaticMap.cs" Line="125" Column="47" />
-      <File FileName="Assets/GoogleGoMap/Scripts/GameManager.cs" Line="52" Column="1" />
-      <File FileName="Assets/GoogleGoMap/Scripts/PlayerLocationService.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/Grafos.cs" Line="7" Column="2" />
+      <File FileName="Assets/Scripts/Nodo.cs" Line="8" Column="5" />
+      <File FileName="Assets/Scripts/Enlaces.cs" Line="8" Column="26" />
+      <File FileName="Assets/Scripts/Arcos.cs" Line="15" Column="8" />
+      <File FileName="Assets/GoogleGoMap/Scripts/GoogleStaticMap.cs" Line="122" Column="74" />
+      <File FileName="Assets/GoogleGoMap/Scripts/ObjectPosition.cs" Line="9" Column="5" />
+      <File FileName="Assets/GoogleGoMap/README.txt" Line="1" Column="1" />
+      <File FileName="Assets/GoogleGoMap/Instructions.txt" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DrawGrafos.cs" Line="18" Column="18" />
+      <File FileName="Assets/GoogleGoMap/Example/SimpleController.cs" Line="1" Column="1" />
+      <File FileName="Assets/GoogleGoMap/Scripts/PlayerLocationService.cs" Line="61" Column="13" />
+      <File FileName="Assets/GoogleGoMap/Scripts/GameManager.cs" Line="26" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

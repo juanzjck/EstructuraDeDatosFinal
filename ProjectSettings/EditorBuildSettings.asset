@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/GoogleGoMap/Example/example.unity
+    guid: 4526a38f9dcb8418fb64ea423c44732d
+  - enabled: 1
+    path: Assets/UDLA_Prueba.unity
+    guid: 26460b5ddd7034fe480f6f1b4907c61f
   m_configObjects: {}
