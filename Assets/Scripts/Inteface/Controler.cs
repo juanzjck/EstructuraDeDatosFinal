@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class Controler : MonoBehaviour {
     public GameObject canvas_login;
-    public Studient studient;
+    public ListStudent studients;
+    public Studient studientLogin;
    	// Use this for initialization
 	void Start () {
       
@@ -17,16 +18,30 @@ public class Controler : MonoBehaviour {
 	void Update () {
 		
 	}
+    public void logIn(){
+        string email = GameObject.FindGameObjectWithTag("EmailLogIn").GetComponent<InputField>().text;
+        string pass = GameObject.FindGameObjectWithTag("PassLogIn").GetComponent<InputField>().text;
 
+    }
+
+    private bool access(string email, string pass){
+       
+        return false;
+    }
     public void singUp(){
         
         string name = GameObject.FindGameObjectWithTag("NameSingUP").GetComponent<InputField>().text;
         string email = GameObject.FindGameObjectWithTag("EmailSingUp").GetComponent<InputField>().text;
         string pass = GameObject.FindGameObjectWithTag("PassSingUP").GetComponent<InputField>().text;
-        studient = new Studient();
+        Studient studient = Instantiate(new Studient());
         studient.setName(name);
         studient.setMail(email);
         studient.setPassword(pass);
+        studients.add(studient);
+        string text = "succeful singUp" + studient.name;
+        Debug.Log(text);
+        GameObject.FindWithTag("SingUp").SetActive(false);
+
     }
 
 
@@ -35,6 +50,8 @@ public class Controler : MonoBehaviour {
         string profesor = GameObject.FindGameObjectWithTag("ProfesorSignatureSingUP").GetComponent<InputField>().text;
         int hourBegin = int.Parse(GameObject.FindGameObjectWithTag("HourBeginSignatureSingUP").GetComponent<InputField>().text);
         int hourEnd = int.Parse(GameObject.FindGameObjectWithTag("HourEndSignatureSingUP").GetComponent<InputField>().text);
-        studient.addSignature(new Signature(title,profesor,hourBegin,hourEnd));
+        studientLogin.addSignature(new Signature(title,profesor,hourBegin,hourEnd));
+        Debug.Log("succeful addSchedule");
     }
+
 }

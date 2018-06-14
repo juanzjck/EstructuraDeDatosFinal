@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ObjectOnMap
+  - Map
+  - NameSingUP
+  - EmailSingUp
+  - PassSingUP
+  - SingUp
   layers:
   - Default
   - TransparentFX

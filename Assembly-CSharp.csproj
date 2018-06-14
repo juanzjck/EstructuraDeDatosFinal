@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\World\Aula.cs" />
     <Compile Include="Assets\Scripts\World\Blouque.cs" />
     <Compile Include="Assets\Scripts\World\ListSignaute.cs" />
+    <Compile Include="Assets\Scripts\World\ListStudent.cs" />
     <Compile Include="Assets\Scripts\World\NodoSignature.cs" />
     <Compile Include="Assets\Scripts\World\NodoStudent.cs" />
     <Compile Include="Assets\Scripts\World\Schedule.cs" />

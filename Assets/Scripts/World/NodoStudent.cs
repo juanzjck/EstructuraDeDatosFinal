@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class NodoStudent : MonoBehaviour {
-    private Studient studient;
-    private NodoStudent before,next;
+    public Studient studient;
+    public NodoStudent before,next;
 
     public NodoStudent(Studient studient,NodoStudent before,NodoStudent next){
         this.studient = studient;
