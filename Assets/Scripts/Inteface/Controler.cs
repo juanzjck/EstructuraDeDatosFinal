@@ -9,7 +9,7 @@ public class Controler : MonoBehaviour {
     public Studient studientLogin;
    	// Use this for initialization
 	void Start () {
-      
+        studients = new ListStudent();
         canvas_login = GameObject.FindGameObjectWithTag("singUp");
         
 	}
@@ -33,7 +33,7 @@ public class Controler : MonoBehaviour {
         string name = GameObject.FindGameObjectWithTag("NameSingUP").GetComponent<InputField>().text;
         string email = GameObject.FindGameObjectWithTag("EmailSingUp").GetComponent<InputField>().text;
         string pass = GameObject.FindGameObjectWithTag("PassSingUP").GetComponent<InputField>().text;
-        Studient studient = Instantiate(new Studient());
+        Studient studient = new Studient();
         studient.setName(name);
         studient.setMail(email);
         studient.setPassword(pass);

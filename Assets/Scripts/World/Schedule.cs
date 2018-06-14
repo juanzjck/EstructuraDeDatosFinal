@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Schedule : MonoBehaviour {
+public class Schedule{
     private ListSignaute siganature;
     public Schedule(){
 

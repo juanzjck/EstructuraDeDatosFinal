@@ -6,6 +6,9 @@ public class Studient : User
 {
     public Schedule schedule;
 
+    public Studient(){
+        
+    }
     public void addSignature(Signature s)
     {
 

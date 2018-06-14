@@ -2,15 +2,15 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/World/ListStudent.cs">
     <Files>
-      <File FileName="Assets/Scripts/World/NodoStudent.cs" Line="6" Column="5" />
-      <File FileName="Assets/Scripts/World/NodoSignature.cs" Line="32" Column="5" />
-      <File FileName="Assets/Scripts/World/ListSignaute.cs" Line="26" Column="6" />
-      <File FileName="Assets/Scripts/World/Schedule.cs" Line="9" Column="9" />
-      <File FileName="Assets/Scripts/World/Studient.cs" Line="9" Column="6" />
-      <File FileName="Assets/Scripts/Inteface/Controler.cs" Line="8" Column="20" />
-      <File FileName="Assets/Scripts/World/Signature.cs" Line="21" Column="30" />
-      <File FileName="Assets/Scripts/World/User.cs" Line="9" Column="9" />
-      <File FileName="Assets/Scripts/World/ListStudent.cs" Line="7" Column="7" />
+      <File FileName="Assets/Scripts/World/NodoStudent.cs" Line="5" Column="26" />
+      <File FileName="Assets/Scripts/World/NodoSignature.cs" Line="5" Column="28" />
+      <File FileName="Assets/Scripts/World/ListSignaute.cs" Line="8" Column="3" />
+      <File FileName="Assets/Scripts/World/Schedule.cs" Line="5" Column="22" />
+      <File FileName="Assets/Scripts/World/Studient.cs" Line="15" Column="28" />
+      <File FileName="Assets/Scripts/Inteface/Controler.cs" Line="12" Column="39" />
+      <File FileName="Assets/Scripts/World/Signature.cs" Line="5" Column="24" />
+      <File FileName="Assets/Scripts/World/ListStudent.cs" Line="14" Column="23" />
+      <File FileName="Assets/Scripts/World/User.cs" Line="3" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

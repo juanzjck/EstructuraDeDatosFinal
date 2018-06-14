@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NodoSignature : MonoBehaviour {
+public class NodoSignature  {
 
     private Signature signature;
     private NodoSignature before, next;

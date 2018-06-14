@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NodoStudent : MonoBehaviour {
+public class NodoStudent  {
     public Studient studient;
     public NodoStudent before,next;
 

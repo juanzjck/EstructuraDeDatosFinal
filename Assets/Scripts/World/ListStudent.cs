@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ListStudent : MonoBehaviour
+public class ListStudent 
 {
+    public ListStudent()
+    {
 
+    }
     NodoStudent begin, end;
     public bool isEmpty()
     {

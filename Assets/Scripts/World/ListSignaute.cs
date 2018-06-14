@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ListSignaute : MonoBehaviour
+public class ListSignaute 
 {
     NodoSignature begin, end;
+  
     public bool isEmpty(){
         return begin == null & end == null;
 
     }
+
     public void add(Signature s)
     {
         NodoSignature n = new NodoSignature(s,null,null);

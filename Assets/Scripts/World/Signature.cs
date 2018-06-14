@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Signature : MonoBehaviour {
+public class Signature  {
     private string title,profesor;
     private int hourBegin, hourend;
 
